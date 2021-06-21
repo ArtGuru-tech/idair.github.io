@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'Fivo Sans';
+    src: url('../webfonts/FivoSans-Bold.eot');
+    src: url('../webfonts/FivoSans-Bold.eot?#iefix') format('embedded-opentype'), url('../webfonts/FivoSans-Bold.woff2') format('woff2'), url('../webfonts/FivoSans-Bold.woff') format('woff'), url('../webfonts/FivoSans-Bold.ttf') format('truetype'), url('../webfonts/FivoSans-Bold.svg#FivoSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fivo Sans';
+    src: url('../webfonts/FivoSans-Medium.eot');
+    src: url('../webfonts/FivoSans-Medium.eot?#iefix') format('embedded-opentype'), url('../webfonts/FivoSans-Medium.woff2') format('woff2'), url('../webfonts/FivoSans-Medium.woff') format('woff'), url('../webfonts/FivoSans-Medium.ttf') format('truetype'), url('../webfonts/FivoSans-Medium.svg#FivoSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fivo Sans';
+    src: url('../webfonts/FivoSans-Heavy.eot');
+    src: url('../webfonts/FivoSans-Heavy.eot?#iefix') format('embedded-opentype'), url('../webfonts/FivoSans-Heavy.woff2') format('woff2'), url('../webfonts/FivoSans-Heavy.woff') format('woff'), url('../webfonts/FivoSans-Heavy.ttf') format('truetype'), url('../webfonts/FivoSans-Heavy.svg#FivoSans-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100px;
+}
+
+.btn:focus,
+.form-control:focus {
+    box-shadow: none;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar_toggler {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 300;
+}
+
+.card-hero {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-hero:hover {
+    opacity: 0.8;
+}
+
+.card-hero .hero-text {
+    max-width: 565px;
+}
+
+.pr-100 {
+    padding-right: 100px;
+}
+
+.pl-100 {
+    padding-left: 100px;
+}
+
+.hero-text {
+    position: relative;
+}
+
+.hero-text h1 {
+    position: relative;
+    z-index: 6;
+}
+
+.card-hero .map {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    left: 50%;
+}
+
+.card-hero .pelit {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.hero-main {
+    position: relative;
+}
+
+.hero-main a.plus {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    left: 50%;
+    font-size: 395px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+.hero-main a.plus:hover {
+    opacity: 0.9;
+}
+
+.advance-digital {
+    text-align: center;
+}
+
+.advance-digital h2 {
+    font-size: 66px;
+    font-family: "Fivo Sans";
+    font-weight: 500;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #90d1b3, #437cbf);
+    -webkit-text-fill-color: transparent;
+    color: #464646;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.advance-digital h2 strong {
+    font-weight: 900;
+}
+
+.advance-digital {
+    padding: 400px 0 100px;
+}
+
+.company-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    width: 100%;
+}
+
+footer,
+.advance-digital {
+    overflow: hidden;
+}
+
+.company-logos li {
+    padding: 0 50px;
+}
+
+.company-logos li img {
+    max-width: inherit;
+}
+
+footer {
+    background-image: -moz-linear-gradient( 180deg, rgb(159, 206, 181) 0%, rgb(67, 124, 191) 100%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(159, 206, 181) 0%, rgb(67, 124, 191) 100%);
+    background-image: -ms-linear-gradient( 180deg, rgb(159, 206, 181) 0%, rgb(67, 124, 191) 100%);
+}
+
+.footer {
+    padding: 200px 0;
+}
+
+.footer form .form-control {
+    border-radius: 9px;
+    background-color: rgb(248, 248, 248);
+    height: 56px;
+}
+
+.footer form {
+    max-width: 401px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.footer form h3 {
+    font-size: 40px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 1.074;
+    margin-bottom: 50px;
+}
+
+.footer form label {
+    font-size: 33px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.074;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.footer form .form-group {
+    margin-bottom: 30px;
+}
+
+.footer form .btn {
+    border-radius: 9px;
+    background-color: rgb(41, 138, 226);
+    height: 56px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    border-color: rgb(41, 138, 226);
+}
+
+.footer form .btn:hover {
+    background-color: #0069d9;
+    border-color: #0069d9;
+}
+
+.form-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkbox {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+
+form .checkbox+label {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form-footer a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.form-footer a:hover {
+    color: #437cbf;
+}
+
+form .checkbox+label:before {
+    content: '';
+    border-radius: 9px;
+    background-color: rgb(248, 248, 248);
+    width: 32px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+form .checkbox:checked+label:before {
+    content: '';
+    background-image: url(../images/tick.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color: #437cbf;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-links p {
+    margin: 0;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: right;
+    position: relative;
+    padding-right: 30px;
+    margin-right: 15px;
+}
+
+.footer-links p:after {
+    content: '';
+    height: 100%;
+    width: 2px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.footer-links a {
+    margin-left: 15px;
+}
+
+.footer-links a:hover {
+    opacity: 0.7;
+}
+
+.footer-links {
+    padding: 50px 0;
+}

@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'Fivo Sans';
+    src: url('../webfonts/FivoSans-Bold.eot');
+    src: url('../webfonts/FivoSans-Bold.eot?#iefix') format('embedded-opentype'), url('../webfonts/FivoSans-Bold.woff2') format('woff2'), url('../webfonts/FivoSans-Bold.woff') format('woff'), url('../webfonts/FivoSans-Bold.ttf') format('truetype'), url('../webfonts/FivoSans-Bold.svg#FivoSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fivo Sans';
+    src: url('../webfonts/FivoSans-Medium.eot');
+    src: url('../webfonts/FivoSans-Medium.eot?#iefix') format('embedded-opentype'), url('../webfonts/FivoSans-Medium.woff2') format('woff2'), url('../webfonts/FivoSans-Medium.woff') format('woff'), url('../webfonts/FivoSans-Medium.ttf') format('truetype'), url('../webfonts/FivoSans-Medium.svg#FivoSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fivo Sans';
+    src: url('../webfonts/FivoSans-Heavy.eot');
+    src: url('../webfonts/FivoSans-Heavy.eot?#iefix') format('embedded-opentype'), url('../webfonts/FivoSans-Heavy.woff2') format('woff2'), url('../webfonts/FivoSans-Heavy.woff') format('woff'), url('../webfonts/FivoSans-Heavy.ttf') format('truetype'), url('../webfonts/FivoSans-Heavy.svg#FivoSans-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 200px;
+}
+
+.btn:focus,
+.form-control:focus {
+    box-shadow: none;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar_toggler {
+    margin: 0;
+    padding: 0;
+    background: transparent ;
+    border: none;
+}
+.navbar-nav {
+    margin-right: 0;
+    margin-left: 30%;
+    background-color: #ffffff;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+
+    color: #5380cd;
+
+}
+
+
+.hero-text h1 {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 300;
+}
+
+.card-hero {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-hero:hover {
+    opacity: 0.8;
+}
+
+.card-hero .hero-text {
+    max-width: 565px;
+}
+
+.pr-100 {
+    padding-right: 100px;
+}
+
+.pl-100 {
+    padding-left: 100px;
+}
+
+.hero-text {
+    position: relative;
+}
+
+.hero-text h1 {
+    position: relative;
+    z-index: 6;
+}
+
+.card-hero .map {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    left: 50%;
+}
+
+.card-hero .pelit {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.hero-main {
+    position: relative;
+}
+
+.hero-main a.plus {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    left: 50%;
+    font-size: 395px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+.hero-main a.plus:hover {
+    opacity: 0.9;
+}
+
+.advance-digital {
+    text-align: left;
+}
+.advance-digital h3 {
+    color: #5380cd;
+}
+.advance-digital hr{
+    color: #64d3bb ;
+    border: 1px solid #64d3bb;
+    background-color: #64d3bb;
+    font-size: 100px;
+    height: 2px;
+    display: block;
+    margin-left: 0;
+    margin-right: 85%;
+    margin-top: 0;
+}
+.advance-digital h3 p {
+    font-size: 40px;
+    font-family: "Fivo Sans";
+    font-weight: 200;
+    color: #87a7db;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.advance-digital p {
+  color: #5380cd;
+    font-weight: 400;
+}
+
+.button1 {
+ background-color: #64d3bb;
+    color: #ffffff;
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border: none;
+    border-radius:2em;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:600;
+    text-align:center;
+    transition: all 0.2s;
+}
+.button2{
+background-color: #5380cd;
+    color: #ffffff;
+    display:inline-flex;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border: none;
+    border-radius:2em;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:600;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.advance-digital {
+    padding: 400px 0 100px;
+}
+
+.company-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    width: 100%;
+}
+
+footer,
+.advance-digital {
+    overflow: hidden;
+}
+
+.company-logos li {
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.company-logos li img {
+    max-width: inherit;
+}
+
+footer {
+    /*background-image: -moz-linear-gradient( 180deg, rgb(159, 206, 181) 0%, rgb(67, 124, 191) 100%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(159, 206, 181) 0%, rgb(67, 124, 191) 100%);
+    background-image: -ms-linear-gradient( 180deg, rgb(159, 206, 181) 0%, rgb(67, 124, 191) 100%); */
+    background-color: #efefef;
+}
+
+.footer {
+
+    position: absolute;
+    right: 0;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-links p {
+    margin: 0;
+    font-size: 16px;
+    color: #b9b9b9;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    position: relative;
+    padding-left: 30px;
+    margin-left: 15px;
+}
+
+
+
+.footer-links a {
+    margin-left: 15px;
+    color: #b9b9b9;
+}
+
+.footer-links a:hover {
+    opacity: 0.7;
+}
+
+.footer-links {
+    padding: 50px 0;
+}
+.footer-links p:before {
+    content: '';
+    height: 100%;
+    width: 2px;
+    background-color: #b9b9b9;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}

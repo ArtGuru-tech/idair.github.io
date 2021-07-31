@@ -27,6 +27,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 ul,
@@ -69,12 +72,13 @@ header {
 }
 .navbar-nav {
     margin-right: 0;
-    margin-left: 30%;
-    background-color: #ffffff;
+    margin-left: 45%;
+    background-color: transparent;
 }
 .navbar-collapse .navbar-nav .nav-item .nav-link {
 
     color: #5380cd;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -161,9 +165,13 @@ header {
 
 .advance-digital {
     text-align: left;
+    margin: 100px auto 200px;
+    padding: 20px;
+
 }
 .advance-digital h3 {
     color: #5380cd;
+    font-family: 'Roboto', sans-serif;
 }
 .advance-digital hr{
     color: #64d3bb ;
@@ -175,6 +183,9 @@ header {
     margin-left: 0;
     margin-right: 85%;
     margin-top: 0;
+}
+#parag_2{
+    font-family: "Fivo Sans";
 }
 .advance-digital h3 p {
     font-size: 40px;
@@ -192,6 +203,7 @@ header {
 .advance-digital p {
   color: #5380cd;
     font-weight: 400;
+    font-family: "Fivo Sans";
 }
 
 .button1 {

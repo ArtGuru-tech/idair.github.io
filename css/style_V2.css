@@ -164,15 +164,18 @@ header {
 }
 
 .advance-digital {
-    text-align: left;
-    vertical-align: middle;
-    margin: 100px auto 200px;
-    padding: 20px;
+   text-justify: distribute-center-last;
+    left: 0;
+
 
 }
+
 .advance-digital h3 {
     color: #5380cd;
     font-family: 'Roboto', sans-serif;
+    justify-content: center;
+
+
 }
 .advance-digital hr{
     color: #64d3bb ;
@@ -186,25 +189,19 @@ header {
     margin-top: 0;
 }
 #parag_2{
-    font-family: "Fivo Sans";
-}
-.advance-digital h3 p {
-    font-size: 40px;
-    font-family: "Fivo Sans";
-    font-weight: 200;
-    color: #87a7db;
-    font-weight: normal;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: left;
+    font-family: "Roboto";
+    justify-content: center;
     vertical-align: middle;
-    line-height: 50px;
+
 }
+
 
 .advance-digital p {
   color: #5380cd;
     font-weight: 400;
-    font-family: "Fivo Sans";
+    font-family: "Roboto";
+    justify-content: center;
+
 }
 
 .button1 {
@@ -224,7 +221,7 @@ header {
 .button2{
 background-color: #5380cd;
     color: #ffffff;
-    display:inline-flex;
+    display:inline-block;
     padding:0.3em 1.2em;
     margin:0 0.3em 0.3em 0;
     border: none;
@@ -236,9 +233,6 @@ background-color: #5380cd;
     transition: all 0.2s;
 }
 
-.advance-digital {
-    padding: 400px 0 100px;
-}
 
 .company-logos {
     display: flex;
@@ -267,19 +261,20 @@ footer {
     /*background-image: -moz-linear-gradient( 180deg, rgb(159, 206, 181) 0%, rgb(67, 124, 191) 100%);
     background-image: -webkit-linear-gradient( 180deg, rgb(159, 206, 181) 0%, rgb(67, 124, 191) 100%);
     background-image: -ms-linear-gradient( 180deg, rgb(159, 206, 181) 0%, rgb(67, 124, 191) 100%); */
-    background-color: #efefef;
+    background-color: #ffffff;
 }
 
-.footer {
-
-    position: absolute;
-    right: 0;
+.footer{
+    vertical-align: sub;
 }
+.footer img{
+   float: right;
+}
+
 
 .footer-links {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    float: left;
+
 }
 
 .footer-links p {
@@ -287,11 +282,11 @@ footer {
     font-size: 16px;
     color: #b9b9b9;
     font-weight: 700;
-    line-height: 1.2;
+    /*line-height: 1.2;*/
     text-align: left;
-    position: relative;
+   /* position: relative;
     padding-left: 30px;
-    margin-left: 15px;
+    margin-left: 15px;*/
 }
 
 
@@ -306,9 +301,10 @@ footer {
 }
 
 .footer-links {
-    padding: 50px 0;
+    padding: 50px 20px;
+
 }
-.footer-links p:before {
+.footer-links img:before {
     content: '';
     height: 100%;
     width: 2px;

@@ -151,6 +151,10 @@
 }
 
 @media(max-width:575px) {
+
+    .advance-digital h3:first-of-type{
+        margin-top: 3px;
+    }
     .navbar-brand img {
         height: 60px;
     }
@@ -185,6 +189,7 @@
     .advance-digital h3:first-of-type{
         margin-top: 3px;
     }
+
     .advance-digital button {
         margin-bottom: 20vh;
     }

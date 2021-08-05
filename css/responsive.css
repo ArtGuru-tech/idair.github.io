@@ -71,12 +71,21 @@
 }
 
 @media(max-width:1199px) {
+    .navbar-nav {
+        margin-left: 20%;
+    }
     .advance-digital {
         padding: 100px 0 50px;
+    }
+    .advance-digital h3:first-of-type{
+        margin-top: 25vh;
     }
 }
 
 @media(max-width:991px) {
+    .advance-digital h3:first-of-type{
+       margin-top: 20vh;
+    }
     .card-hero .hero-text {
         max-width: 400px;
         margin: 0 auto;
@@ -166,4 +175,18 @@
     .hero-main a.plus {
         font-size: 130px;
     }
+}
+
+@media (max-width: 320px) {
+    .advance-digital {
+        min-height: 100vh;
+        font-size: x-small;
+    }
+    .advance-digital h3:first-of-type{
+        margin-top: 3px;
+    }
+    .advance-digital button {
+        margin-bottom: 20vh;
+    }
+
 }
